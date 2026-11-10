@@ -1,0 +1,14 @@
+# Python environment and caches
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Build output (regenerate with ./build_mac.sh)
+build/
+dist/
+*.spec
+*.dmg
+
+# macOS
+.DS_Store
